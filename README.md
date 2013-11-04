@@ -44,5 +44,8 @@ Details has been uploaded to: https://github.com/woainvzu/My_Goagent_Marslo
 Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
 
 ##Screenshot
-![My_Firefox_Addons](https://github.com/woainvzu/Firefox_Config_Marslo/blob/master/firefox_addons.png?raw=true)
+### On Linux
+![My_Firefox_Addons](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons.png?raw=true)
 
+### On Win7
+![My_firefox_theme](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons_window7.png?raw=true)
