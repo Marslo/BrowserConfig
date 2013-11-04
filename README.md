@@ -31,7 +31,7 @@ The configuration for Firefox and plugins, vimperator, etc
 - DownloadHelper 4.9.21 | [Download](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=ss) | [Official Website](http://www.downloadhelper.net/)
 
 ##Apperance
-**FT DeepDark 9.2.1**
+**FT DeepDark 9.2.1** | [Download](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/)
 
 ## Plugins information
 ### Flashplayer:
