@@ -15,7 +15,7 @@ The configuration for Firefox and plugins, vimperator, etc
 ## Plugins
 ### Linux
 - AutoProxy
-- CNTVLive2 plugin for Firefox
+- CNTVLive2 plugin for Firefox | [Download](http://t.live.cntv.cn/newp2pb/plugins/npCNTVLive2_Linux_32.xpi)
 - FireGestures
 - Vimperator
 - BaiduSearch
