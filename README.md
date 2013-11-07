@@ -38,7 +38,7 @@ The configuration for Firefox and plugins, vimperator, etc
 **Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
 
 ### Goagent + AutoProxy:
-Details has been uploaded to: https://github.com/woainvzu/My_Goagent_Marslo
+Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
 ### Bookmarks
 Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
