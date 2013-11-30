@@ -15,7 +15,7 @@ The configuration for Firefox and plugins, vimperator, etc
 ## Plugins
 ### Linux
 - AutoProxy
-- CNTVLive2 plugin for Firefox
+- CNTVLive2 plugin for Firefox | [Download](http://t.live.cntv.cn/newp2pb/plugins/npCNTVLive2_Linux_32.xpi)
 - FireGestures
 - Vimperator
 - BaiduSearch
@@ -38,7 +38,7 @@ The configuration for Firefox and plugins, vimperator, etc
 **Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
 
 ### Goagent + AutoProxy:
-Details has been uploaded to: https://github.com/woainvzu/My_Goagent_Marslo
+Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
 ### Bookmarks
 Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
