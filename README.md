@@ -21,7 +21,7 @@ The configuration for Firefox and plugins, vimperator, etc
 - BaiduSearch
 
 ### Windows
-- AutoProxy 0.4b2.2013051811 | [Download](https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=search) 
+- AutoProxy 0.4b2.2013051811 | [Download](https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=search)
 - BaiduSearch 1.0.5 | [Download](https://addons.mozilla.org/en-US/firefox/addon/baidu-search/?src=search)
 - Download Statusbar 0.9.10 | [Download](https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/?src=ss)
 - Firebug 1.12.4 | [Download](https://addons.mozilla.org/en-US/firefox/addon/firebug/?src=search) | [Official Website](https://www.getfirebug.com/)
@@ -31,7 +31,7 @@ The configuration for Firefox and plugins, vimperator, etc
 - DownloadHelper 4.9.21 | [Download](https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=ss) | [Official Website](http://www.downloadhelper.net/)
 
 ##Apperance
-**FT DeepDark 9.2.1** | [Download](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/)
+**FT DeepDark 9.3.3.3** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.3.3.3-fx-windows.xpi)
 
 ## Plugins information
 ### Flashplayer:
