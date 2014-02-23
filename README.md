@@ -4,7 +4,7 @@ FirefoxConfig
 The configuration for Firefox and plugins, vimperator, etc
 
 # Firefox
-## Usage
+## Vimperator configuration Usage
 #### For Windows:
 - Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
     - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
@@ -38,7 +38,21 @@ The configuration for Firefox and plugins, vimperator, etc
 
 ### Plugins information
 #### Flashplayer:
-**Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
+##### **Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
+
+##### Install flashplugin for Ubuntu firefox
+- Download flashplugin:
+    - [Pool partner](http://archive.canonical.com/pool/partner/a/adobe-flashplugin/)
+    - [Adobe Flash Player](http://get.adobe.com/flashplayer/)
+- Steps for installation
+    - Extract the `tar.gz`
+    - Copy `libflashplayer.so` to `/usr/lib/mozilla/plugins/`
+        <pre><code># mkdir -p /usr/lib/mozilla/plugins/
+        # cp adobe-flashplugin-xx.xx.xxx.xxx/i386/libflashplayer.so  /usr/lib/mozilla/plugins/
+        </code></pre>
+    - Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
+        <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
+        </code></pre>
 
 #### Goagent + AutoProxy:
 - Details has been uploaded to: https://github.com/Marslo/GoagentConfig
