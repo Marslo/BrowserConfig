@@ -40,21 +40,20 @@ The configuration for Firefox and plugins, vimperator, etc
 - Copy **.vimperatorrc** to <code>$HOME</code>
 
 #### Flashplayer:
-##### **Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
+##### Flashplugin-installer download:
+- [Pool partner](http://archive.canonical.com/pool/partner/a/adobe-flashplugin/)
+- [Adobe Flash Player](http://get.adobe.com/flashplayer/)
 
 ##### Install flashplugin for Ubuntu firefox
-- Download flashplugin:
-    - [Pool partner](http://archive.canonical.com/pool/partner/a/adobe-flashplugin/)
-    - [Adobe Flash Player](http://get.adobe.com/flashplayer/)
-- Steps for installation
-    - Extract the `tar.gz`
-    - Copy `libflashplayer.so` to `/usr/lib/mozilla/plugins/`
-        <pre><code># mkdir -p /usr/lib/mozilla/plugins/
-        # cp adobe-flashplugin-xx.xx.xxx.xxx/i386/libflashplayer.so  /usr/lib/mozilla/plugins/
-        </code></pre>
-    - Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
-        <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
-        </code></pre>
+- Extract the `tar.gz`
+- Copy `libflashplayer.so` to `/usr/lib/mozilla/plugins/`
+    <pre><code># mkdir -p /usr/lib/mozilla/plugins/
+    # cp adobe-flashplugin-xx.xx.xxx.xxx/i386/libflashplayer.so  /usr/lib/mozilla/plugins/
+    </code></pre>
+- Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
+    <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
+    </code></pre>
+
 ##### [Reference](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player/184031#184031)
 
 #### Goagent + AutoProxy:
@@ -75,16 +74,17 @@ Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
 - Run the command to import CA.crt for Chrome
     <pre><code>$ certutil -d sql:$HOME/.pki/nssdb -A -t TC -n "goagent" -i $HOME/Tools/Software/Proxy/google_appengine/goagent/local/CA.crt
     </code></pre>
+
 ## Extensions
 #### Custom key mappings:
-
-    map h previousTab
+    <pre><code>map h previousTab
     map l nextTab
     map d removeTab
     map u restoreTab
     map gt scrollLeft
     map gT scrollRight
     map y copyCurrentUrl
+    </code></pre>
 
 #### Scroll step size
 
