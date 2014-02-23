@@ -53,6 +53,7 @@ The configuration for Firefox and plugins, vimperator, etc
     - Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
         <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
         </code></pre>
+##### [Reference](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player/184031#184031)
 
 #### Goagent + AutoProxy:
 - Details has been uploaded to: https://github.com/Marslo/GoagentConfig
