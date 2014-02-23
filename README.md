@@ -4,14 +4,6 @@ FirefoxConfig
 The configuration for Firefox and plugins, vimperator, etc
 
 # Firefox
-## Vimperator configuration Usage
-#### For Windows:
-- Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
-    - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
-    - **XP**:<code>%HOMEPATH%</code> would be <code>C:\Document and Settings\\\<UserName></code>
-
-#### For Linux
-- Copy **.vimperatorrc** to <code>$HOME</code>
 
 ## Plugins
 #### Linux
@@ -37,6 +29,16 @@ The configuration for Firefox and plugins, vimperator, etc
 - **FT DeepDark 9.4.7** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.4.7-fx-windows.xpi)
 
 ### Plugins information
+
+#### Vimperator configuration Usage
+##### For Windows:
+- Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
+    - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
+    - **XP**:<code>%HOMEPATH%</code> would be <code>C:\Document and Settings\\\<UserName></code>
+
+##### For Linux
+- Copy **.vimperatorrc** to <code>$HOME</code>
+
 #### Flashplayer:
 ##### **Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
 
