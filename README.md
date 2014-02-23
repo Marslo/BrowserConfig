@@ -41,7 +41,7 @@ The configuration for Firefox and plugins, vimperator, etc
 **Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
 
 #### Goagent + AutoProxy:
-Details has been uploaded to: https://github.com/Marslo/GoagentConfig
+- Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
 #### Bookmarks
 Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
@@ -54,6 +54,10 @@ Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
 ![My_firefox_theme](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons_window7.png?raw=true)
 
 # Chrome
+## Use SwitchySharp
+- Run the command to import CA.crt for Chrome
+    <pre><code>$ certutil -d sql:$HOME/.pki/nssdb -A -t TC -n "goagent" -i $HOME/Tools/Software/Proxy/google_appengine/goagent/local/CA.crt
+    </code></pre>
 ## Extensions
 #### Custom key mappings:
 
