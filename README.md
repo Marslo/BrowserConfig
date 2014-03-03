@@ -1,17 +1,25 @@
-FirefoxConfig
+Broswer Config
 =============
 
 The configuration for Firefox and plugins, vimperator, etc
 
-# Firefox
-## Usage
-#### For Windows:
-- Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
-    - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
-    - **XP**:<code>%HOMEPATH%</code> would be <code>C:\Document and Settings\\\<UserName></code>
+## Content
+- [Firefox](https://github.com/Marslo/BrowserConfig#firefox)
+    - [Plugins](https://github.com/Marslo/BrowserConfig#plugins)
+        - [Linux](https://github.com/Marslo/BrowserConfig#plugins)
+        - [Windows](https://github.com/Marslo/BrowserConfig#windows)
+        - [Apperance](https://github.com/Marslo/BrowserConfig#apperance)
+    - [Plugin Usage](https://github.com/Marslo/BrowserConfig#plugins)
+        - [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
+        - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
+        - [Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)
+    - [Bookmarks](https://github.com/Marslo/BrowserConfig#bookmarks)
+    - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
+- [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
+    - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
+    - [Extensions](https://github.com/Marslo/BrowserConfig#extensions)
 
-#### For Linux
-- Copy **.vimperatorrc** to <code>$HOME</code>
+# Firefox
 
 ## Plugins
 #### Linux
@@ -36,34 +44,63 @@ The configuration for Firefox and plugins, vimperator, etc
 - **FT DeepDark 9.3.3.3** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.3.3.3-fx-windows.xpi)
 - **FT DeepDark 9.4.7** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.4.7-fx-windows.xpi)
 
-### Plugins information
-#### Flashplayer:
-**Flashplugin-installer** could be downloaded from: http://archive.canonical.com/pool/partner/a/adobe-flashplugin/
+## Plugins information
 
-#### Goagent + AutoProxy:
-Details has been uploaded to: https://github.com/Marslo/GoagentConfig
+### Vimperator configuration Usage
+#### For Windows:
+- Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
+    - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
+    - **XP**:<code>%HOMEPATH%</code> would be <code>C:\Document and Settings\\\<UserName></code>
 
-#### Bookmarks
+#### For Linux
+- Copy **.vimperatorrc** to <code>$HOME</code>
+
+### Flashplayer:
+#### Flashplugin-installer download:
+- [Pool partner](http://archive.canonical.com/pool/partner/a/adobe-flashplugin/)
+- [Adobe Flash Player](http://get.adobe.com/flashplayer/)
+
+#### Install flashplugin for Ubuntu firefox
+- Extract the `tar.gz`
+- Copy `libflashplayer.so` to `/usr/lib/mozilla/plugins/`
+    <pre><code># mkdir -p /usr/lib/mozilla/plugins/
+    # cp adobe-flashplugin-xx.xx.xxx.xxx/i386/libflashplayer.so  /usr/lib/mozilla/plugins/
+    </code></pre>
+- Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
+    <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
+    </code></pre>
+
+#### [Reference](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player/184031#184031)
+
+### Goagent + AutoProxy:
+- Details has been uploaded to: https://github.com/Marslo/GoagentConfig
+
+### Bookmarks
 Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
 
-### Screenshot
-#### On Linux
+## Screenshot
+### On Linux
 ![My_Firefox_Addons](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons.png?raw=true)
 
-#### On Win7
+### On Win7
 ![My_firefox_theme](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons_window7.png?raw=true)
 
 # Chrome
+## Use SwitchySharp
+- Run the command to import CA.crt for Chrome
+    <pre><code>$ certutil -d sql:$HOME/.pki/nssdb -A -t TC -n "goagent" -i $HOME/Tools/Software/Proxy/google_appengine/goagent/local/CA.crt
+    </code></pre>
+
 ## Extensions
 #### Custom key mappings:
-
-    map h previousTab
+    <pre><code>map h previousTab
     map l nextTab
     map d removeTab
     map u restoreTab
     map gt scrollLeft
     map gT scrollRight
     map y copyCurrentUrl
+    </code></pre>
 
 #### Scroll step size
 
