@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://translate.google.com/?hl=en&tab=wT
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+URL=http://translate.google.com/?hl=en&tab=wT
+IDList=
+IconFile=http://translate.google.com/favicon.ico
+IconIndex=1

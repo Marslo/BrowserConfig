@@ -1,0 +1,8 @@
+[DEFAULT]
+BASEURL=https://qc.inside.nokiasiemensnetworks.com/qcbin/start_a.htm
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+URL=https://qc.inside.nsn.com/qcbin/start_a.htm
+IDList=
+HotKey=0

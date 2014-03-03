@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=https://srvjira.inside.nokiasiemensnetworks.com/secure/Dashboard.jspa
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+URL=https://srvjira.inside.nokiasiemensnetworks.com/secure/Dashboard.jspa
+IDList=
+IconFile=https://srvjira.inside.nokiasiemensnetworks.com/s/en_UKtho4jp-418945332/813/10/_/favicon.ico
+IconIndex=1
