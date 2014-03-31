@@ -1,66 +1,62 @@
 "3.5 (created: 2012/08/04 00:41:20)
-
-source! /home/marslo/.vimperatorrc.local
-
 " vim: set ft=vimperator:
+
+" source! "C:\\Users\\jiaoolii\\.git\\_vimperatorrc.local"
 
 set editor=gvim\ -f
 set defsearch=google
-noremap <C-n> H
-noremap <C-p> L
-noremap H h
-noremap L l
-noremap h gT
-noremap l gt
-
-noremap j 3j
-noremap k 3k
-
-" Set <C-d> as add bookmark 
-noremap <C-d> :dialog addbookmark<CR>
-
-" Only open Search engine and Bookmarks
-set complete=sb
-
-" Highlight search
-set hlsearch
 
 " Execute the config file immediately
-map S :so ~/.vimperatorrc<CR>
+map S :so ~/_vimperatorrc<CR>
 
+noremap <C-n> H             " Ctrl + n/p: next/pre history
+noremap <C-p> L
+noremap H h                 " H/L: scroll right/left of page
+noremap L l
+noremap h gT                " h/l: go to the left/right Tab
+noremap l gt
+noremap j 5j
+noremap k 5k
+
+" Add bookmark
+noremap <C-d> :dialog addbookmark<CR>
+" Only open Search engine and Bookmarks
+set complete=sb
+" Highlight search
+set hlsearch
 " limit the highth of line
 set maxitems=10
 
 " Quick Open
-noremap gr :tabopen https://translate.google.com/?hl=en&tab=wT
+noremap gr :tabopen https://translate.google.com/?hl=en&tab=wT<CR>
 
 " THEME CONFIGURATION
-" highlight StatusLine      color:#AAAAAA; background:transparent; font-weight:bold;
-" highlight ModeMsg         color:darkred;background:transparent; font-weight:bold;
-" highlight Filter			color: #2E4340; background: #CCDC90; font-weight: bold;
-" highlight Indicator		color: #94BFF3;
-" highlight Keyword       color:#FF0000; background:transparent; font-weight:bold;
+" highlight StatusLine        color: #AAAAAA;    background: transparent;  font-weight: bold;
+" highlight ModeMsg           color: darkred;    background: transparent;  font-weight: bold;
+" highlight Filter			      color: #2E4340;    background: #CCDC90;      font-weight: bold;
+" highlight Indicator		      color: #94BFF3;
+" highlight Keyword           color: #FF0000;    background:transparent;   font-weight:bold;
 
 " Default background
-highlight NonText           background:#212121;
-highlight CompTitle			color: #ACBC90; background: #2b2b2b; font-weight: bold;
-highlight CompTitle>*		padding: 0 .5ex;
-highlight Normal            color:#AAAAAA; background:#212121; font-weight:lighter;
-highlight StatusLine        color:#AAAAAA; background:#212121; font-weight:bold;
-highlight CmdLine           color:#999999; background:#212121; font-weight:lighter;
-highlight ModeMsg           color:darkred;background:#212121; font-weight:bold;
-highlight ErrorMsg          font-weight:normal; color:red; background:#212121;
-highlight CompItem[selected] font-weight:normal; color:#DDDDDD; background:#2b2b2b;
-highlight Hint              font-family:Consolas; font-size:12px; font-weight:lighter; uppercase; color:black; padding:1px; margin-left:-16px; margin-top:-10px; text-transform:
-highlight HintElem clear
-highlight URL					text-decoration: none; color: #9ECE9E; background: inherit;
-highlight URL:hover				text-decoration: underline; cursor: pointer;
+highlight NonText             background: #212121;
+highlight CompTitle			      color: #ACBC90;     background: #2b2b2b;     font-weight: bold;
+highlight CompTitle>*		      padding: 0 .5ex;
+highlight Normal              color: #AAAAAA;     background: #212121;     font-weight:lighter;
+highlight StatusLine          color: #AAAAAA;     background: #212121;     font-weight:bold;
+highlight CmdLine             color: #999999;     background: #212121;     font-weight:lighter;
+highlight ModeMsg             color: darkred;     background: #212121;     font-weight:bold;
+highlight ErrorMsg            color: red;         background: #212121;     font-weight:normal;
+highlight CompItem[selected]  color: #DDDDDD;     background: #2b2b2b;     font-weight:normal;
+highlight URL					        color: #9ECE9E;     background:  inherit;    text-decoration: none;
+highlight URL:hover				    cursor: pointer;    text-decoration: underline;
 
-highlight Title				color: #ACBC90; background: #3F3F3F; font-weight: bold;
+highlight Title				        color: #ACBC90;     background: #3F3F3F;      font-weight: bold;
 " Color for Info
-highlight URL				text-decoration: none; color: #ACBC90; background: inherit;
+highlight URL				          color: #ACBC90;     background: inherit;      text-decoration: none;
 " Color for filter keywords
-highlight Filter			color: #CCDC90; background: #212121; font-weight: bold;
+highlight Filter			        color: #CCDC90;     background: #212121;      font-weight: bold;
 " The color and background color of system information (search reasult)
-highlight InfoMsg			color: #ACBC90; background: inherit;
-highlight WarningMsg				color: #FF0000; background: inherit;
+highlight InfoMsg			        color: #ACBC90;     background: inherit;
+highlight WarningMsg				  color: #FF0000;     background: inherit;
+highlight Hint                color: black;       font-family:Consolas;     font-size:12px; font-weight:lighter; uppercase;  padding:1px; margin-left:-16px; margin-top:-10px; text-transform:
+highlight HintElem            clear
