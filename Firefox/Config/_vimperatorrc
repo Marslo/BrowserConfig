@@ -9,12 +9,18 @@ set defsearch=google
 " Execute the config file immediately
 map S :so ~/_vimperatorrc<CR>
 
-noremap <C-n> H             " Ctrl + n/p: next/pre history
+" Ctrl + n/p: next/pre history
+noremap <C-n> H
 noremap <C-p> L
-noremap H h                 " H/L: scroll right/left of page
+
+" H/L: scroll right/left of page
+noremap H h
 noremap L l
-noremap h gT                " h/l: go to the left/right Tab
+
+" h/l: go to the left/right Tab
+noremap h gT
 noremap l gt
+
 noremap j 5j
 noremap k 5k
 
