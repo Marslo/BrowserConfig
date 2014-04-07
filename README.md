@@ -31,7 +31,8 @@ The configuration for Firefox and plugins, vimperator, etc
 
 #### Windows
 - SearchReset 0.3 | [Download](https://addons.mozilla.org/firefox/downloads/file/203374/searchreset-0.3-fx.xpi)
-- AutoProxy 0.4b2.2013051811 | [Download](https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=search)
+- FoxyProxy Standard 4.2.4 | [Download](https://addons.mozilla.org/firefox/downloads/file/241444/foxyproxy_standard-4.2.4-fx+tb+sm.xpi?src=dp-btn-primary)
+- ~~AutoProxy 0.4b2.2013051811 | [Download](https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=search)~~
 - BaiduSearch 1.0.5 | [Download](https://addons.mozilla.org/en-US/firefox/addon/baidu-search/?src=search)
 - Download Statusbar 0.9.10 | [Download](https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/?src=ss)
 - Firebug 1.12.6 | [Download](https://addons.mozilla.org/firefox/downloads/latest/1843/addon-1843-latest.xpi) | [Official Website](https://www.getfirebug.com/)
