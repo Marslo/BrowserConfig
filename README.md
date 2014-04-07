@@ -82,9 +82,6 @@ The configuration for Firefox and plugins, vimperator, etc
 ### Goagent + FoxyProxy
 - Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
-### Bookmarks
-Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
-
 ## Screenshot
 ### On Linux
 ![My_Firefox_Addons](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons.png?raw=true)
