@@ -96,15 +96,16 @@ The configuration for Firefox and plugins, vimperator, etc
         - **Port**: `8087`
     - Automatic Proxy Configuration (by PAC)
         - **Automatic proxy configuration URL**: `http://127.0.0.1:8086/proxy.pac`
+    - It looks like
+    ![proxies](https://github.com/Marslo/BrowserConfig/blob/master/Screenshots/foxyproxy.png?raw=true)
 - Select Mode as `Use proxy "GoAgent for all URLs"` and `Add New Pattern Subscriptions` as below:
     - **Subscription Name**: `gfwlist`
     - **Subscription URL**: `http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt`
     - Set `GoAgent` as the added Proxies
     - **Format**: `AutoProxy`
     - **Obfuscation**: `Base64`
-
-##### Screenshots for FoxyProxy configurations:
-
+    - It looks like:
+    ![Subscription](https://github.com/Marslo/BrowserConfig/blob/master/Screenshots/sbuscription.png?raw=true)
 
 ## Screenshot
 ### On Linux
