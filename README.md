@@ -14,7 +14,7 @@ The configuration for Firefox and plugins, vimperator, etc
         - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
         - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
         - [GoAgent + FoxyProxy](https://github.com/Marslo/BrowserConfig#goagent--foxyproxy)
-    - [Bookmarks](https://github.com/Marslo/BrowserConfig#bookmarks)
+        - [FoxyProxy]()
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
@@ -81,6 +81,30 @@ The configuration for Firefox and plugins, vimperator, etc
 ### ~~Goagent + AutoProxy~~
 ### Goagent + FoxyProxy
 - Details has been uploaded to: https://github.com/Marslo/GoagentConfig
+
+### Configurations in FoxyProxy
+#### Download
+- Download FoxyProxy Standard 4.2.4 by click [here](https://addons.mozilla.org/firefox/downloads/file/241444/foxyproxy_standard-4.2.4-fx+tb+sm.xpi?src=dp-btn-primary)
+
+#### Configuraton
+- Select `Tools` -> `Add-ons` in Firefox (Or click shortcut key <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>A</kbd> in Linux/Ubuntu)
+- Select `Preferences` button of **FoxyProxy Standard** in **Extensions** field and click `Add New Proxy` in **Proxies** Tab
+- Input Proxy informations:
+    - **Proxy Name**: `GoAgent` (or whatever you want)
+    - Manual Proxy Configuration
+        - **Hosts or IP Address**: `127.0.0.1`
+        - **Port**: `8087`
+    - Automatic Proxy Configuration (by PAC)
+        - **Automatic proxy configuration URL**: `http://127.0.0.1:8086/proxy.pac`
+- Select Mode as `Use proxy "GoAgent for all URLs"` and `Add New Pattern Subscriptions` as below:
+    - **Subscription Name**: `gfwlist`
+    - **Subscription URL**: `http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt`
+    - Set `GoAgent` as the added Proxies
+    - **Format**: `AutoProxy`
+    - **Obfuscation**: `Base64`
+
+##### Screenshots for FoxyProxy configurations:
+
 
 ## Screenshot
 ### On Linux
