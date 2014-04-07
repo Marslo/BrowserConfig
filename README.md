@@ -14,7 +14,7 @@ The configuration for Firefox and plugins, vimperator, etc
         - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
         - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
         - [GoAgent + FoxyProxy](https://github.com/Marslo/BrowserConfig#goagent--foxyproxy)
-        - [FoxyProxy]()
+        - [FoxyProxy](https://github.com/Marslo/BrowserConfig#foxyproxy)
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
@@ -82,7 +82,7 @@ The configuration for Firefox and plugins, vimperator, etc
 ### Goagent + FoxyProxy
 - Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
-### Configurations in FoxyProxy
+### FoxyProxy
 #### Download
 - Download FoxyProxy Standard 4.2.4 by click [here](https://addons.mozilla.org/firefox/downloads/file/241444/foxyproxy_standard-4.2.4-fx+tb+sm.xpi?src=dp-btn-primary)
 
