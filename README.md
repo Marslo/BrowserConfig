@@ -12,7 +12,7 @@ The configuration for Firefox and plugins, vimperator, etc
     - [Plugin Usage](https://github.com/Marslo/BrowserConfig#plugins)
         - [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
         - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
-        - [Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)
+        - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
     - [Bookmarks](https://github.com/Marslo/BrowserConfig#bookmarks)
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
@@ -77,7 +77,8 @@ The configuration for Firefox and plugins, vimperator, etc
 
 #### [Reference](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player/184031#184031)
 
-### ~~Goagent + AutoProxy:~~
+### ~~Goagent + AutoProxy~~
+### Goagent + FoxyProxy
 - Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
 ### Bookmarks
