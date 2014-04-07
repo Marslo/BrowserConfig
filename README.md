@@ -12,16 +12,15 @@ The configuration for Firefox and plugins, vimperator, etc
     - [Plugin Usage](https://github.com/Marslo/BrowserConfig#plugins)
         - [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
         - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
-        - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
-        - [GoAgent + FoxyProxy](https://github.com/Marslo/BrowserConfig#goagent--foxyproxy)
         - [FoxyProxy](https://github.com/Marslo/BrowserConfig#foxyproxy)
+        - [GoAgent](https://github.com/Marslo/BrowserConfig#goagent)
+        - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
     - [Extensions](https://github.com/Marslo/BrowserConfig#extensions)
 
 # Firefox
-
 ## Plugins
 #### Linux
 - CNTVLive2 plugin for Firefox | [Download](http://t.live.cntv.cn/newp2pb/plugins/npCNTVLive2_Linux_32.xpi)
@@ -49,15 +48,12 @@ The configuration for Firefox and plugins, vimperator, etc
 - **FT DeepDark 9.4.7** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.4.7-fx-windows.xpi)
 - **FT DeepDark 9.5.4** | [Download](https://addons.mozilla.org/firefox/downloads/latest/295337/platform:2/addon-295337-latest.xpi)
 
-
 ## Plugins information
-
 ### Vimperator configuration Usage
 #### For Windows:
 - Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
     - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
     - **XP**:<code>%HOMEPATH%</code> would be <code>C:\Document and Settings\\\<UserName></code>
-
 #### For Linux
 - Copy **.vimperatorrc** to <code>$HOME</code>
 
@@ -75,12 +71,7 @@ The configuration for Firefox and plugins, vimperator, etc
 - Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
     <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
     </code></pre>
-
 #### [Reference](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player/184031#184031)
-
-### ~~Goagent + AutoProxy~~
-### Goagent + FoxyProxy
-- Details has been uploaded to: https://github.com/Marslo/GoagentConfig
 
 ### FoxyProxy
 #### Download
@@ -106,6 +97,10 @@ The configuration for Firefox and plugins, vimperator, etc
     - **Obfuscation**: `Base64`
     - It looks like:
     ![Subscription](https://github.com/Marslo/BrowserConfig/blob/master/Screenshots/sbuscription.png?raw=true)
+
+### ~~Goagent + AutoProxy~~
+### Goagent
+- Details has been found at: https://github.com/Marslo/GoagentConfig
 
 ## Screenshot
 ### On Linux
