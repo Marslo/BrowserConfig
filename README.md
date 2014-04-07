@@ -13,6 +13,7 @@ The configuration for Firefox and plugins, vimperator, etc
         - [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
         - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
         - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
+        - [GoAgent + FoxyProxy](https://github.com/Marslo/BrowserConfig#goagent--foxyproxy)
     - [Bookmarks](https://github.com/Marslo/BrowserConfig#bookmarks)
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
