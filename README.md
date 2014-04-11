@@ -12,26 +12,27 @@ The configuration for Firefox and plugins, vimperator, etc
     - [Plugin Usage](https://github.com/Marslo/BrowserConfig#plugins)
         - [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
         - [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
-        - [Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)
-    - [Bookmarks](https://github.com/Marslo/BrowserConfig#bookmarks)
+        - [FoxyProxy](https://github.com/Marslo/BrowserConfig#foxyproxy)
+        - [GoAgent](https://github.com/Marslo/BrowserConfig#goagent)
+        - ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
     - [Extensions](https://github.com/Marslo/BrowserConfig#extensions)
 
 # Firefox
-
 ## Plugins
 #### Linux
-- AutoProxy
 - CNTVLive2 plugin for Firefox | [Download](http://t.live.cntv.cn/newp2pb/plugins/npCNTVLive2_Linux_32.xpi)
-- FireGestures
-- Vimperator
-- BaiduSearch
+- BaiduSearch 1.0.5 | [Download](https://addons.mozilla.org/en-US/firefox/addon/baidu-search/?src=search)
+- FireGestures 1.8.2 | [Download](https://addons.mozilla.org/firefox/downloads/latest/6366/addon-6366-latest.xpi) | [Official Website](http://www.xuldev.org/firegestures/)
+- FireShot 0.98.47 | [Download](https://addons.mozilla.org/firefox/downloads/latest/5648/platform:5/addon-5648-latest.xpi)
+- Vimperator 3.8.1 | [Download](https://addons.cdn.mozilla.net/storage/public-staging/4891/vimperator-3.8.1-fx.xpi) | [Official Website](http://www.vimperator.org/)
+- FoxyProxy Standard 4.2.4 | [Download](https://addons.mozilla.org/firefox/downloads/file/241444/foxyproxy_standard-4.2.4-fx+tb+sm.xpi?src=dp-btn-primary)
+- ~~AutoProxy~~
 
 #### Windows
-- SearchReset 0.3 | [Download](https://addons.mozilla.org/firefox/downloads/file/203374/searchreset-0.3-fx.xpi)
-- AutoProxy 0.4b2.2013051811 | [Download](https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=search)
+- FoxyProxy Standard 4.2.4 | [Download](https://addons.mozilla.org/firefox/downloads/file/241444/foxyproxy_standard-4.2.4-fx+tb+sm.xpi?src=dp-btn-primary)
 - BaiduSearch 1.0.5 | [Download](https://addons.mozilla.org/en-US/firefox/addon/baidu-search/?src=search)
 - Download Statusbar 0.9.10 | [Download](https://addons.mozilla.org/en-US/firefox/addon/download-statusbar/?src=ss)
 - Firebug 1.12.6 | [Download](https://addons.mozilla.org/firefox/downloads/latest/1843/addon-1843-latest.xpi) | [Official Website](https://www.getfirebug.com/)
@@ -39,19 +40,20 @@ The configuration for Firefox and plugins, vimperator, etc
 - FireShot 0.98.47 | [Download](https://addons.mozilla.org/firefox/downloads/latest/5648/platform:5/addon-5648-latest.xpi)
 - Vimperator 3.8.1 | [Download](https://addons.cdn.mozilla.net/storage/public-staging/4891/vimperator-3.8.1-fx.xpi) | [Official Website](http://www.vimperator.org/)
 - DownloadHelper 4.9.21 | [Download](https://addons.mozilla.org/firefox/downloads/latest/3006/addon-3006-latest.xpi) | [Official Website](http://www.downloadhelper.net/)
+- ~~AutoProxy 0.4b2.2013051811 | [Download](https://addons.mozilla.org/en-US/firefox/addon/autoproxy/?src=search)~~
+- ~~SearchReset 0.3 | [Download](https://addons.mozilla.org/firefox/downloads/file/203374/searchreset-0.3-fx.xpi)~~
 
 ###Apperance
 - **FT DeepDark 9.3.3.3** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.3.3.3-fx-windows.xpi)
 - **FT DeepDark 9.4.7** | [Download](https://addons.cdn.mozilla.net/storage/public-staging/295337/ft_deepdark-9.4.7-fx-windows.xpi)
+- **FT DeepDark 9.5.4** | [Download](https://addons.mozilla.org/firefox/downloads/latest/295337/platform:2/addon-295337-latest.xpi)
 
 ## Plugins information
-
 ### Vimperator configuration Usage
 #### For Windows:
 - Copy **_vimperatorrc** to <code>%HOMEPATH%</code>
     - **WIN7**: <code>%HOMEPATH%</code> would be <code>C:\Users\\\<UserName></code>
     - **XP**:<code>%HOMEPATH%</code> would be <code>C:\Document and Settings\\\<UserName></code>
-
 #### For Linux
 - Copy **.vimperatorrc** to <code>$HOME</code>
 
@@ -69,14 +71,36 @@ The configuration for Firefox and plugins, vimperator, etc
 - Copy `adobe-flashplugin-xx.xx.xxx.xxx/i386/usr` to `/usr`
     <pre><code># sudo cp -r adobe-flashplugin-xx.xx.xxx.xxx/i385/usr/* /usr
     </code></pre>
-
 #### [Reference](http://askubuntu.com/questions/11/how-do-i-install-adobe-flash-player/184031#184031)
 
-### Goagent + AutoProxy:
-- Details has been uploaded to: https://github.com/Marslo/GoagentConfig
+### FoxyProxy
+#### Download
+- Download FoxyProxy Standard 4.2.4 by click [here](https://addons.mozilla.org/firefox/downloads/file/241444/foxyproxy_standard-4.2.4-fx+tb+sm.xpi?src=dp-btn-primary)
 
-### Bookmarks
-Get from https://github.com/Marslo/WindowsStuff/tree/master/Bookmarks
+#### Configuraton
+- Select `Tools` -> `Add-ons` in Firefox (Or click shortcut key <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>A</kbd> in Linux/Ubuntu)
+- Select `Preferences` button of **FoxyProxy Standard** in **Extensions** field and click `Add New Proxy` in **Proxies** Tab
+- Input Proxy informations:
+    - **Proxy Name**: `GoAgent` (or whatever you want)
+    - Manual Proxy Configuration
+        - **Hosts or IP Address**: `127.0.0.1`
+        - **Port**: `8087`
+    - Automatic Proxy Configuration (by PAC)
+        - **Automatic proxy configuration URL**: `http://127.0.0.1:8086/proxy.pac`
+    - It looks like
+    ![proxies](https://github.com/Marslo/BrowserConfig/blob/master/Screenshots/foxyproxy.png?raw=true)
+- Select Mode as `Use proxy "GoAgent for all URLs"` and `Add New Pattern Subscriptions` as below:
+    - **Subscription Name**: `gfwlist`
+    - **Subscription URL**: `http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt`
+    - Set `GoAgent` as the added Proxies
+    - **Format**: `AutoProxy`
+    - **Obfuscation**: `Base64`
+    - It looks like:
+    ![Subscription](https://github.com/Marslo/BrowserConfig/blob/master/Screenshots/sbuscription.png?raw=true)
+
+### ~~Goagent + AutoProxy~~
+### Goagent
+- Details has been found at: https://github.com/Marslo/GoagentConfig
 
 ## Screenshot
 ### On Linux
