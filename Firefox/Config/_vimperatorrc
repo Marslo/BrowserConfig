@@ -21,10 +21,10 @@ noremap L l
 noremap h gT
 noremap l gt
 
-noremap j 5j
-noremap k 5k
+noremap j 3j
+noremap k 3k
 
-" Add bookmark
+" Set <C-d> as add bookmark 
 noremap <C-d> :dialog addbookmark<CR>
 " Only open Search engine and Bookmarks
 set complete=sb
