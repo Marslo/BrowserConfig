@@ -34,7 +34,8 @@ set hlsearch
 set maxitems=10
 
 " Quick Open
-noremap gr :tabopen https://translate.google.com/?hl=en&tab=wT<CR>
+noremap gr      :tabopen https://translate.google.com/?hl=en&tab=wT<CR>
+noremap gm      :tabopen https://mail.google.com<CR>
 
 " THEME CONFIGURATION
 " highlight StatusLine        color: #AAAAAA;    background: transparent;  font-weight: bold;
