@@ -33,6 +33,8 @@ set hlsearch
 " limit the highth of line
 set maxitems=10
 
+set gui=nonavigation
+
 " Quick Open
 noremap gr      :tabopen https://translate.google.com/?hl=en&tab=wT<CR>
 noremap gm      :tabopen https://mail.google.com<CR>
