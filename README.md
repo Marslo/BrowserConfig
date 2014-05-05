@@ -157,3 +157,7 @@ The configuration for Firefox and plugins, vimperator, etc
 #### Search
 
     http://www.google.ca/search?q=
+
+## Other tips
+#### Extension Download:
+- [Chrome Extension Downloader](http://chrome-extension-downloader.com/)
