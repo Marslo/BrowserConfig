@@ -5,18 +5,17 @@ The configuration for Firefox and plugins, vimperator, etc
 
 ## Content
 - [Firefox](https://github.com/Marslo/BrowserConfig#firefox)
-    - [Plugins](https://github.com/Marslo/BrowserConfig#plugins)
-				- [Lists](https://github.com/Marslo/BrowserConfig#lists)
-						- [Linux](https://github.com/Marslo/BrowserConfig#plugins)
-						- [Windows](https://github.com/Marslo/BrowserConfig#windows)
-						- [Apperance](https://github.com/Marslo/BrowserConfig#apperance)
-				- [Plugin Usage](https://github.com/Marslo/BrowserConfig#plugins)
-						- [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
-						- [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
-						- [FoxyProxy](https://github.com/Marslo/BrowserConfig#foxyproxy)
-						- [GoAgent](https://github.com/Marslo/BrowserConfig#goagent)
-						- ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
-				- [Search Engine]
+		- [Lists](https://github.com/Marslo/BrowserConfig#lists)
+				- [Linux](https://github.com/Marslo/BrowserConfig#plugins)
+				- [Windows](https://github.com/Marslo/BrowserConfig#windows)
+				- [Apperance](https://github.com/Marslo/BrowserConfig#apperance)
+		- [Plugin Usage](https://github.com/Marslo/BrowserConfig#plugins)
+				- [Vimperator](https://github.com/Marslo/BrowserConfig#vimperator-configuration-usage)
+				- [Flashplayer](https://github.com/Marslo/BrowserConfig#flashplayer)
+				- [FoxyProxy](https://github.com/Marslo/BrowserConfig#foxyproxy)
+				- [GoAgent](https://github.com/Marslo/BrowserConfig#goagent)
+				- ~~[Goagent + Autoproxy](https://github.com/Marslo/BrowserConfig#goagent--autoproxy)~~
+		- [Search Engine](https://github.com/Marslo/BrowserConfig#search-engine)
     - [Screenshots](https://github.com/Marslo/BrowserConfig#screenshot)
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
