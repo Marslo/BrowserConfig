@@ -50,8 +50,8 @@ noremap gm      :tabopen https://mail.google.com<CR>
 highlight NonText             background: #212121;
 highlight CompTitle			      color: #ACBC90;     background: #2b2b2b;     font-weight: bold;
 highlight CompTitle>*		      padding: 0 .5ex;
-highlight Normal              color: #AAAAAA;     background: #212121;     font-weight:lighter;
-highlight StatusLine          color: #AAAAAA;     background: #212121;     font-weight:bold;
+highlight Normal              color: #AAAAAA;     background: #212121;     font-weight:lighter;   font-family:Monospace;   font-size: 14px;
+highlight StatusLine          color: #AAAAAA;     background: #212121;     font-weight:lighter;   font-family:Monospace;   font-size: 14px;
 highlight CmdLine             color: #999999;     background: #212121;     font-weight:lighter;
 highlight ModeMsg             color: darkred;     background: #212121;     font-weight:bold;
 highlight ErrorMsg            color: red;         background: #212121;     font-weight:normal;
@@ -67,5 +67,5 @@ highlight Filter			        color: #CCDC90;     background: #212121;      font-we
 " The color and background color of system information (search reasult)
 highlight InfoMsg			        color: #ACBC90;     background: inherit;
 highlight WarningMsg				  color: #FF0000;     background: inherit;
-highlight Hint                color: black;       font-family:Consolas;     font-size:12px; font-weight:lighter; uppercase;  padding:1px; margin-left:-16px; margin-top:-10px; text-transform:
+highlight Hint                color: black;       font-family:Monospace;     font-size:12px; font-weight:lighter; uppercase;  padding:1px; margin-left:-16px; margin-top:-10px; text-transform:
 highlight HintElem            clear
