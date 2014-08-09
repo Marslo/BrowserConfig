@@ -47,7 +47,6 @@ set maxitems=10
 set gui=nonavigation
 set hintchars=glhjkasdfyuiopqwertnmzxcvb
 set visualbell
-set wildoptions=auto
 set wildmode=list:full
 
 " Quick Open
@@ -61,18 +60,18 @@ noremap gm      :tabopen https://mail.google.com<CR>
 
 " Default background
 highlight NonText             background: #212121;
-highlight Normal              color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 14px;
-highlight StatusLine          color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 14px;
+highlight Normal              color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 16px;
+highlight StatusLine          color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 16px;
 highlight Title				        color: #ACBC90;     background: #3F3F3F;            font-weight: bold;
 highlight CompTitle			      color: #ACBC90;     background: #2b2b2b;            font-weight: bold;
 highlight CompTitle>*		      padding: 0 .5ex;
-highlight CompDesc            overflow: hidden;   width: 200px;                   max-width: 400px;           font-width: 14px;
-highlight CompResult          overflow: hidden;   width: 300px;                   max-width: 300px;           font-width: 14px;
+highlight CompDesc            overflow: hidden;   width: 200px;                   max-width: 400px;           font-width: 16px;
+highlight CompResult          overflow: hidden;   width: 300px;                   max-width: 300px;           font-width: 16px;
 highlight CompItem[selected]  color: #D0D0D0;     background: #2b2b2b;            font-weight:normal;
 " Color of keywords after filted in Completion
 highlight Filter			        color: #CCDC90;     background: #212121;            font-weight: bold;
 highlight CmdLine             color: #999999;     background: #212121;            font-weight:lighter;
-highlight CmdLine>*           font-weight: 14px;  font-family: "Ubuntu Mono";
+highlight CmdLine>*           font-weight: 16px;  font-family: "Ubuntu Mono";
 highlight ModeMsg             color: #C0FF3E;     background: #212121;            font-weight:bold;
 highlight ErrorMsg            color: red;         background: #212121;            font-weight:normal;
 highlight URL				          color: #ACBC90;     background: inherit;            text-decoration: none;
