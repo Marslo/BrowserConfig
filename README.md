@@ -129,6 +129,12 @@ The configuration for Firefox and plugins, vimperator, etc
 ![My_firefox_theme](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons_window7.png?raw=true)
 
 # Chrome
+## Install SwitchySharp
+- Go to [Chrome Extersions Page](chrome://chrome/extensions/)
+- Drag & drop the [Proxy-SwitchySharp_v1.10.4.crx]() into the Chrome
+- Import [SwitchyOptions.bak]() by clicking **Options** -> **Import/Export** -> **Restore from file**
+- Update the list by clicking **Switch Rules** -> **Update List Now**
+
 ## Use SwitchySharp
 - Run the command to import CA.crt for Chrome
     <pre><code>$ certutil -d sql:$HOME/.pki/nssdb -A -t TC -n "goagent" -i $HOME/Tools/Software/Proxy/google_appengine/goagent/local/CA.crt
