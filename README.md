@@ -129,6 +129,15 @@ The configuration for Firefox and plugins, vimperator, etc
 ![My_firefox_theme](https://github.com/Marslo/FirefoxConfig/blob/master/Screenshots/firefox_addons_window7.png?raw=true)
 
 # Chrome
+## Default Settings
+### Font
+- Standard font: `Times New Roman` | `16`
+- Serif font: `Times New Roman` | `16`
+- Sans-serif font: `Arial` | `16`
+- Fixed-width font: `Consolas`
+- minimum font size: `Tiny`
+- Encoding: `Western (ISO-8859-1)`
+
 ## Install SwitchySharp
 - Go to [Chrome Extersions Page](chrome://chrome/extensions/)
 - Drag & drop the [Proxy-SwitchySharp_v1.10.4.crx]() into the Chrome
