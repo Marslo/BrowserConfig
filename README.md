@@ -195,3 +195,4 @@ The configuration for Firefox and plugins, vimperator, etc
 ## Other tips
 #### Extension Download:
 - [Chrome Extension Downloader](http://chrome-extension-downloader.com/)
+- [Set bing engine as English version](http://www.bing.com/preferences.aspx)
