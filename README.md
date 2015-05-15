@@ -21,6 +21,7 @@ The configuration for Firefox and plugins, vimperator, etc
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
     - [Extensions](https://github.com/Marslo/BrowserConfig#extensions)
+    - [Other Tips](https://github.com/Marslo/BrowserConfig/blob/master/README.md#other-tips)
 
 # Firefox
 ## Plugins
