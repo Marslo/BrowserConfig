@@ -21,7 +21,7 @@ The configuration for Firefox and plugins, vimperator, etc
 - [Chrome](https://github.com/Marslo/BrowserConfig#chrome)
     - [SwitchSharp](https://github.com/Marslo/BrowserConfig#use-switchysharp)
     - [Extensions](https://github.com/Marslo/BrowserConfig#extensions)
-    - [Other Tips](https://github.com/Marslo/BrowserConfig/blob/master/README.md#other-tips)
+- [Other Tips](https://github.com/Marslo/BrowserConfig/blob/master/README.md#other-tips)
 
 # Firefox
 ## Plugins
@@ -193,7 +193,8 @@ The configuration for Firefox and plugins, vimperator, etc
 
     http://www.google.ca/search?q=
 
-## Other tips
 #### Extension Download:
 - [Chrome Extension Downloader](http://chrome-extension-downloader.com/)
+
+# Other tips
 - [Set bing engine as English version](http://www.bing.com/preferences.aspx)
