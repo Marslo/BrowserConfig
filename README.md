@@ -151,50 +151,73 @@ The configuration for Firefox and plugins, vimperator, etc
     </code></pre>
 
 ## Extensions
+#### Excluded URLs and kyes
+* https?://mail.google.com/*	"*"
+* chrome://extensions/*				"*"
+* chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html*				"*"
+* chrome://extensions/*				"*"
+* chrome://apps/*							"*"
+* https?://jenkins-appliance.engba.symantec.com/* 				"*"
+
 #### Custom key mappings
     <pre><code>map h previousTab
-    map l nextTab
-    map d removeTab
-    map u restoreTab
-    map gt scrollLeft
-    map gT scrollRight
-    map y copyCurrentUrl
+		map l nextTab
+		map d removeTab
+		map u restoreTab
+		map gt scrollLeft
+		map gT scrollRight
+		map y copyCurrentUrl
+		map G scrollToBottom
+		map o Vomnibar.activate
+		map t Vomnibar.activateInNewTab
+		map O Vomnibar.activateEditUrl
+		map T Vomnibar.activateEditUrlInNewTab
     </code></pre>
 
 #### Scroll step size
 
     30 px
 
+#### Character used for link hints
+
+		sadfjklewcmpgh
+
+#### Miscellaneous options
+
+		check		Use smooth scrolling
+		uncheck	Use the link's name and numbers for link-hint filtering
+		check		Don't let pages steal the focus on load
+		check 	Hide the Heads Up Display (HUD)
+		check 	Treat find queries as reqular expressions
+
 #### CSS for link hints
 
-    div > .vimiumHintMarker {
-    /* linkhint boxes */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),
-      color-stop(100%,#FFC542));
-    border: 1px solid #E3BE23;
-    }
+		div > .vimiumHintMarker {
+		/* linkhint boxes */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),
+			color-stop(100%,#FFC542));
+		border: 1px solid #E3BE23;
+		}
 
-    div > .vimiumHintMarker span {
-    /* linkhint text */
-    color: black;
-    font-weight: bold;
-    font-size: 12px;
-    }
+		div > .vimiumHintMarker span {
+		/* linkhint text */
+		color: black;
+		font-weight: bold;
+		font-size: 12px;
+		}
 
-    div > .vimiumHintMarker > .matchingCharacter {
-    }
+		div > .vimiumHintMarker > .matchingCharacter {
+		}
 
-
-#### Characters used for link hints
-
-    sadfjklewcmpgh
 
 #### Search
 
-    http://www.google.ca/search?q=
+		# http://www.google.ca/search?q=
+		# http://duckduckgo.com/?q=
+		http://global.bing.com/?FORM=HPCNEN&setmkt=en-us&setlang=en-us?q=
 
 #### Extension Download:
-- [Chrome Extension Downloader](http://chrome-extension-downloader.com/)
+* [Chrome Extension Downloader](http://chrome-extension-downloader.com/)
 
 # Other tips
-- [Set bing engine as English version](http://www.bing.com/preferences.aspx)
+* [Set bing engine as English version](http://www.bing.com/preferences.aspx)
