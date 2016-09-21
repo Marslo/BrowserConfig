@@ -151,6 +151,9 @@ The configuration for Firefox and plugins, vimperator, etc
     </code></pre>
 
 ## Extensions
+#### Theme
+* Material Simple Dark Grey
+
 #### Excluded URLs and kyes
 * https?://mail.google.com/*	"*"
 * chrome://extensions/*				"*"
