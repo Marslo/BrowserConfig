@@ -218,6 +218,12 @@ The configuration for Firefox and plugins, vimperator, etc
 		# http://www.google.ca/search?q=
 		# http://duckduckgo.com/?q=
 		http://global.bing.com/?FORM=HPCNEN&setmkt=en-us&setlang=en-us?q=
+		
+
+#### Stylish
+
+ 	*:not([class*="icon"]):not([class*="mui-amount"]):not([class*="top-nav"]):not([href*="ju.taobao.com"]):not([class*="Icon"]):not([class*="prev"]):not([class*="next"]):not([class*="pay-"]):not([class*="tm-shop-list-"]):not([class*="console-output"]):not(code):not(b):not(ins):not(i):not(s){font-family:Candara !important; font-size: 17px;}
+		
 
 #### Extension Download:
 * [Chrome Extension Downloader](http://chrome-extension-downloader.com/)
