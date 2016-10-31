@@ -221,8 +221,10 @@ The configuration for Firefox and plugins, vimperator, etc
 		
 
 #### Stylish
-
- 	*:not([class*="icon"]):not([class*="mui-amount"]):not([class*="top-nav"]):not([href*="ju.taobao.com"]):not([class*="Icon"]):not([class*="prev"]):not([class*="next"]):not([class*="pay-"]):not([class*="tm-shop-list-"]):not([class*="console-output"]):not(code):not(b):not(ins):not(i):not(s){font-family:Candara !important; font-size: 17px;}
+	*:not([class*="icon"]):not([class*="mui-amount"]):not([class*="top-nav"]):not([href*="161.91.4.86:9001"]):not([class*="Icon"]):not([class*="prev"]):not([class*="next"]):not([class*="pay-"]):not([class*="tm-shop-list-"]):not([class*="console-output"]):not([class*="lowkey"]):not(code):not(b):not(ins):not(i):not(s) {
+    font-family: Candara, Consolas !important;
+    font-size: 17px;
+    }
 		
 
 #### Extension Download:
