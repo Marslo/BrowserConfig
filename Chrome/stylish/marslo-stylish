@@ -1,0 +1,45 @@
+*:not([class*="icon"]):not([class*="mui-amount"]):not([class*="top-nav"]):not([href*="161.91.4.86:9001"]):not([class*="Icon"]):not([class*="prev"]):not([class*="next"]):not([class*="pay-"]):not([class*="tm-shop-list-"]):not([class*="console-output"]):not([class*="lowkey"]):not([class*="syntaxhighlighter-pre"]):not([class*="blob-code"]):not([class*="blob-num"]):not([class*="CodeMirror"]):not([class*=" CodeMirror-line"]):not([class*="code"]):not([class*="preformattedContent"]):not([class*="line"]):not(code):not(b):not(ins):not(i):not(s):not(pre) {
+    font-family: Candara, monofur;
+}
+pre,
+code {
+    font-family: monofur !important;
+    font-size: 18px;
+}
+
+.line,
+.line-number,
+.CodeMirror-line,
+span.pun,
+span.ant,
+span.atn,
+span.pln,
+span.atv,
+span.tag,
+span.com,
+span.kwd,
+span.cm-property,
+span.cm-variable,
+span.cm-qualifier,
+span.cm-keyword,
+span.cm-string,
+span.cm-variable-3,
+span.cm-number,
+span.cm-tab-wrap-hack,
+span.cm-atom,
+span.cm-def,
+span.cm-text,
+span.cm-tab,
+span.cm-tag,
+u pre.CodeMirror-line,
+li.alt,
+div.line,
+div.CodeMirror-linenumber {
+    font-family: monofur !important;
+    font-size: 19px;
+    /*     text-shadow:0px -15px 0 #fe2192; */
+}
+.CodeMirror pre,
+.CodeMirror span {
+    font-family: inherit;
+}
