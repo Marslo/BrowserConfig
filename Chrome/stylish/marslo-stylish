@@ -1,12 +1,3 @@
-/* *:not([class*="icon"]):not([class*="mui-amount"]):not([class*="top-nav"]):not([href*="161.91.4.86:9001"]):not([class*="Icon"]):not([class*="prev"]):not([class*="next"]):not([class*="pay-"]):not([class*="tm-shop-list-"]):not([class*="console-output"]):not([class*="lowkey"]):not([class*="syntaxhighlighter-pre"]):not([class*="blob-code"]):not([class*="blob-num"]):not([class*="CodeMirror"]):not([class*=" CodeMirror-line"]):not([class*="code"]):not([class*="preformattedContent"]):not([class*="line"]):not(code):not(b):not(ins):not(i):not(s):not(pre) {
-    font-family: Candara, monofur;
-}
-*/
-
-* {
-    font-family: Candara, monofur;
-}
-
 .console-output {
     font-family: Consolas !important;
     font-size: 18px;
@@ -24,3 +15,8 @@ div.code *,
     font-family: monofur !important;
     font-size: 18px;
 }
+
+* {
+    font-family: Candara, monofur;
+}
+
