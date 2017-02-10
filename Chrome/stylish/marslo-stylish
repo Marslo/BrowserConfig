@@ -1,8 +1,7 @@
-.console-output {
-    font-family: Consolas !important;
-    font-size: 18px;
-}
+/* i really want this to be global */
+/* https://userstyles.org/styles/138683/marslo-stylish */
 
+kbd,
 pre,
 code,
 pre *,
@@ -15,8 +14,14 @@ div.code *,
     font-family: monofur !important;
     font-size: 18px;
 }
-
-* {
-    font-family: Candara, monofur;
+.console-output {
+    font-family: Consolas !important;
+    font-size: 18px;
 }
-
+/* class*="fa":       Gitlab
+   class*="octicon":  Atom
+   class*="win-icon": Microsoft
+*/
+*:not([class*="fa"]):not([class*="octicon"]):not([class*="win-icon"]) {
+    font-family: Candara;
+}
