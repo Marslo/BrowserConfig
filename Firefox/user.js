@@ -25,6 +25,8 @@ user_pref("nglayout.initialpaint.delay", 0);
 
 // Disable warning for install non-valid add-ons
 user_pref("xpinstall.signatures.required", false);
+user_pref("extensions.checkCompatibility.51.0", false);
+user_pref("extensions.checkCompatibility.nightly", false);
 
 // Un-trust link
 // user_pref("browser.xul.error_pages.expert_bad_cert", true);
