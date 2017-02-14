@@ -47,7 +47,7 @@ set maxitems=10
 set gui=nonavigation
 set hintchars=glhjkasdfyuiopqwertnmzxcvb
 set visualbell
-set wildoptions=auto
+" set wildoptions=auto
 set wildmode=list:full
 
 " Quick Open
@@ -93,5 +93,15 @@ highlight Mapping             color: purple;
 highlight MoreMsg             color: #6A4ACD;       background: inherit;
 " The LineNumber for Error
 highlight LineNr              color: orange;        background: white;
+
+" Workaround for Firefox 51.0
+nnoremap t :mytabopen about:blank<CR>:open<Space>
+command! mytabopen -nargs=1 -description "Open with new tab" :js liberator.open("<args>", liberator.NEW_TAB);
+nnoremap l :js gBrowser.mTabContainer.advanceSelectedTab(1, true)<CR>
+nnoremap h :js gBrowser.mTabContainer.advanceSelectedTab(-1, true)<CR>
+nnoremap d :js gBrowser.removeTab(gBrowser.mCurrentTab)<CR>
+nnoremap u :js undoCloseTab()<CR>
+nnoremap r :js gBrowser.reload()<CR>
+nnoremap R :js gBrowser.reload(true)<CR>
 
 " vim: tabstop=2:softtabstop=2:shiftwidth=2:expandtab

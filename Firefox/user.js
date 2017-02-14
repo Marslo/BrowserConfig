@@ -23,6 +23,9 @@ user_pref("content.notify.backoffcount", 5);
 user_pref("content.switch.threshold", 750000);
 user_pref("nglayout.initialpaint.delay", 0);
 
+// Disable warning for install non-valid add-ons
+user_pref("xpinstall.signatures.required", false);
+
 // Un-trust link
 // user_pref("browser.xul.error_pages.expert_bad_cert", true);
 // disable certification OCSP
