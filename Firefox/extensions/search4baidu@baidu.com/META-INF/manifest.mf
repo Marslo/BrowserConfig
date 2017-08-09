@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 12Pu27S3JUQ0qBrSNxY9Zg==
+SHA1-Digest: sLVyBTq8aEeC9h1JW19Z1xuz8bE=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: chrome/content/favicon.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: slX1S33L/+Go64LtEgza9A==
+SHA1-Digest: QmEW5X2gvnetzyK+yCTaO2Az7iY=
+
+Name: searchplugins/baidu.xml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sxfaAtJD0kqaeEpqdsp0LA==
+SHA1-Digest: OhMeavBnvfwTaU06sOZCxWzSTWE=
+

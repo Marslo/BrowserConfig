@@ -61,18 +61,18 @@ noremap gm      :tabopen https://mail.google.com<CR>
 
 " Default background
 highlight NonText             background: #212121;
-highlight Normal              color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 16px;
-highlight StatusLine          color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 16px;
+highlight Normal              color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 22px;
+highlight StatusLine          color: #AAAAAA;     background: #212121;            font-weight:lighter;        font-family:"Ubuntu Mono";      font-size: 22px;
 highlight Title				        color: #ACBC90;     background: #3F3F3F;            font-weight: bold;
 highlight CompTitle			      color: #ACBC90;     background: #2b2b2b;            font-weight: bold;
 highlight CompTitle>*		      padding: 0 .5ex;
-highlight CompDesc            overflow: hidden;   width: 200px;                   max-width: 400px;           font-width: 16px;
-highlight CompResult          overflow: hidden;   width: 300px;                   max-width: 300px;           font-width: 16px;
+highlight CompDesc            overflow: hidden;   width: 200px;                   max-width: 400px;           font-width: 22px;
+highlight CompResult          overflow: hidden;   width: 300px;                   max-width: 300px;           font-width: 22px;
 highlight CompItem[selected]  color: #D0D0D0;     background: #2b2b2b;            font-weight:normal;
 " Color of keywords after filted in Completion
 highlight Filter			        color: #CCDC90;     background: #212121;            font-weight: bold;
 highlight CmdLine             color: #999999;     background: #212121;            font-weight:lighter;
-highlight CmdLine>*           font-weight: 16px;  font-family: "Ubuntu Mono";
+highlight CmdLine>*           font-weight: 22px;  font-family: "Ubuntu Mono";
 highlight ModeMsg             color: #C0FF3E;     background: #212121;            font-weight:bold;
 highlight ErrorMsg            color: red;         background: #212121;            font-weight:normal;
 highlight URL				          color: #ACBC90;     background: inherit;            text-decoration: none;
@@ -81,7 +81,7 @@ highlight Indicator		        color: #94BFF3;
 highlight PromptText          color: #9A32CD;
 highlight InfoMsg			        color: #ACBC90;     background: inherit;
 highlight WarningMsg				  color: #FF0000;     background: inherit;
-highlight Hint                color: #102663;     background: inherit;            font-size:130%;             font-weight:bold;    font-family:"Ubuntu Mono";      padding: -2px; margin-left: -16px; margin-top: -10px;    text-transform: uppercase;
+highlight Hint                color: #102663;     background: inherit;            font-size:130%;             font-weight:bold;    font-family:"Ubuntu Mono";      padding: -2px; margin-left: -22px; margin-top: -10px;    text-transform: uppercase;
 highlight HintElem            background: #e0e0e0;
 highlight HintActive          background: red;
 highlight Help                font-size: 10pt;      line-height: 1.4em;           font-family: -moz-fixed;
@@ -95,13 +95,13 @@ highlight MoreMsg             color: #6A4ACD;       background: inherit;
 highlight LineNr              color: orange;        background: white;
 
 " Workaround for Firefox 51.0
-nnoremap t :mytabopen about:blank<CR>:open<Space>
-command! mytabopen -nargs=1 -description "Open with new tab" :js liberator.open("<args>", liberator.NEW_TAB);
-nnoremap l :js gBrowser.mTabContainer.advanceSelectedTab(1, true)<CR>
-nnoremap h :js gBrowser.mTabContainer.advanceSelectedTab(-1, true)<CR>
-nnoremap d :js gBrowser.removeTab(gBrowser.mCurrentTab)<CR>
-nnoremap u :js undoCloseTab()<CR>
-nnoremap r :js gBrowser.reload()<CR>
-nnoremap R :js gBrowser.reload(true)<CR>
+" nnoremap t :mytabopen about:blank<CR>:open<Space>
+" command! mytabopen -nargs=1 -description "Open with new tab" :js liberator.open("<args>", liberator.NEW_TAB);
+" nnoremap l :js gBrowser.mTabContainer.advanceSelectedTab(1, true)<CR>
+" nnoremap h :js gBrowser.mTabContainer.advanceSelectedTab(-1, true)<CR>
+" nnoremap d :js gBrowser.removeTab(gBrowser.mCurrentTab)<CR>
+" nnoremap u :js undoCloseTab()<CR>
+" nnoremap r :js gBrowser.reload()<CR>
+" nnoremap R :js gBrowser.reload(true)<CR>
 
 " vim: tabstop=2:softtabstop=2:shiftwidth=2:expandtab
